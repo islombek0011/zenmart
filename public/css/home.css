@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   height: 145px;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -234,6 +235,10 @@
   font-style: normal;
   font-weight: 500;
   line-height: 28px; /* 175% */
+  cursor: pointer;
+}
+.browse_menu span:active {
+  color: #f5c34b;
 }
 
 .navbar_bott_box .navbar_route_menu {
@@ -243,7 +248,7 @@
   flex-direction: row;
 }
 .navbar_route_menu .router_menu {
-  margin-bottom: ;
+  margin-bottom: 0;
   margin-right: 20px;
   width: auto;
   height: 40px;
@@ -282,4 +287,253 @@
   font-style: normal;
   font-weight: 500;
   line-height: 28px; /* 175% */
+  cursor: pointer;
 }
+.sorting_menu span:active {
+  color: #f5c34b;
+}
+
+/* Shu joygacha Navbar ni qildim */
+
+.home_image {
+  position: relative;
+  width: 871.2px;
+  height: 508px;
+  margin: 61px 0px 0px 260px;
+  border-radius: 9px;
+
+  background: #0053f6;
+  display: flex;
+  flex-direction: column;
+}
+.home_image .image_special_offer {
+  margin: 101px 0px 0px 15px;
+  width: 104px;
+  height: 30px;
+  padding: 4px 14px;
+  border-radius: 6px;
+  background: var(--Bg-2, #f5c34b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image_special_offer span {
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 13 / Medium */
+  font-family: Jost;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 169.231% */
+}
+
+.image_entertainment {
+  margin: 14px 0px 0px 15px;
+
+  width: 428px;
+  height: 152px;
+}
+.image_entertainment .span_2 {
+  color: var(--Bg-White, #fff);
+  font-family: Jost;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.image_entertainment .span_1 {
+  color: var(--Bg-White, #fff);
+
+  /* 60/Medium */
+  font-family: Jost;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px;
+}
+.home_image .image_discover {
+  width: 262px;
+  height: 56px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.image_discover .image_discover_span1 {
+  margin-left: 15px;
+  color: var(--Bg-White, #fff);
+
+  /* 16/Regular */
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.image_discover .image_discover_span2 {
+  margin-left: 15px;
+
+  color: var(--Bg-White, #fff);
+
+  /* 16/Medium */
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.home_image .image_shop_now {
+  margin: 20px 0px 0px 15px;
+  width: 140px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid var(--Bg-White, #fff);
+  background: var(--Bg-White, #fff);
+}
+
+.image_shop_now span {
+  color: var(--Color-Text-Dark, #041e42);
+  text-align: center;
+
+  /* 15 / Medium */
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 146.667% */
+}
+
+.home_image .image_samsung {
+  position: absolute;
+  right: 0;
+  margin: 83px 17px 33px 0px;
+  width: 519.514px;
+  height: 407px;
+}
+
+/* Home image shu yergacha qildim  */
+
+.care_monitor {
+  position: absolute;
+  right: 272.4px;
+  border-radius: 9px;
+  top: 207px;
+  width: 422.4px;
+  height: 240px;
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.care_monitor .starting_from {
+  position: relative;
+  top: -14px;
+  margin: 51px 0px 0px 37px;
+  width: 207.565px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.starting_from span {
+  color: #0053f6;
+
+  /* 15 / Regular */
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 146.667% */
+}
+
+.care_monitor .health_care {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7px 0px 0px 37px;
+  width: 225.686px;
+  height: 76px;
+  position: relative;
+  top: -37px;
+}
+.health_care span {
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 26/Medium */
+  font-family: Jost;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.care_monitor .shop_now {
+  margin: 7px 0px 0px 37px;
+  width: 122px;
+  height: 27px;
+  position: relative;
+  top: -58px;
+}
+.shop_now span {
+  color: var(--Color-Text-Dark, #041e42);
+  text-align: center;
+
+  /* 15 / Medium */
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 146.667% */
+}
+
+.care_monitor .shop_now_border {
+  width: 32px;
+  height: 2px;
+  margin: 3px 0px 0px 37px;
+  background: var(--Color-Text-Dark, #041e42);
+  top: -80px;
+  position: relative;
+}
+
+.care_monitor .care_monitor_image {
+  width: 236px;
+  height: 240px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+.care_monitor1 {
+  position: absolute;
+  right: 272.4px;
+  border-radius: 9px;
+  top: 266px;
+  right: 0.4px;
+  bottom: -141px;
+  width: 422.4px;
+  height: 240px;
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.care_monitor1 .shop_now_border1 {
+  width: 127px;
+  height: 2px;
+  background: var(--Color-Text-Dark, #041e42);
+  margin: 3px 0px 0px 37px;
+  top: -80px;
+  position: relative;
+}
+/* ---------------------------------------------------------- */
