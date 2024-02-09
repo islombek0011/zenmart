@@ -1,3 +1,7 @@
+:root {
+  --font: "jost";
+}
+
 html,
 body {
   margin: 0;
