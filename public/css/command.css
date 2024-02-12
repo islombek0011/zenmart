@@ -537,3 +537,32 @@ p {
   font-style: normal;
   font-weight: 400;
 }
+
+/* PAGE ROOTER */
+
+.page_rooter {
+  margin: 20px 0px;
+  width: 1320px;
+}
+
+.page_rooter span {
+  color: var(--Color-Text-Dark, #041e42);
+
+  font-family: Jost;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.page_rooter .drop {
+  margin: 0px 10px;
+}
+
+.page_rooter span:active {
+  color: var(--Color-Text-Light, #626974);
+
+  font-family: Jost;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
